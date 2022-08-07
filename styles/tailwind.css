@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .parentParentCard {
+    @apply flex justify-center my-20 mx-3 sm:mx-0;
+  }
+  .parentCard {
+    @apply grid md:grid-cols-2 gap-7 xl:grid-cols-3 xl:gap-10 grid-cols-1;
+  }
+}
+
+.my-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
